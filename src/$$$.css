@@ -1,0 +1,70 @@
+.money__imageRose {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  display: inline-block;
+  align-self: flex-start;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.money__imageMid {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding-left: 390px;
+  align-self: center;
+  align-items: center;
+}
+
+.money__imageRoseRight {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  padding-left: 370px;
+  display: inline-flex;
+  align-self: flex-end;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.money__top {
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  height: 140px;
+  background-size: 100%;
+  font-size: 80px;
+  color: #84bb63;
+  z-index: 1;
+  background: linear-gradient(rgb(2, 4, 158), transparent),
+    linear-gradient(to top right, rgb(30, 255, 1), transparent),
+    linear-gradient(to top left, rgb(30, 255, 1), transparent);
+}
+
+.money__row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.money__row2 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.money__row3 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
